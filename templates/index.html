@@ -40,14 +40,17 @@
 
   <script>
     // Your web app's Firebase configuration
+    // These need to be defined in line with GCP settings
+    // and pushed to the deployment from the environment
+    // These are defined as part of the application setup in GCP
     var firebaseConfig = {
-      apiKey: "AIzaSyDYjwO85hziykDa5hD_FWJlni5HSDG4a-k",
-      authDomain: "gcp-flask-explore.firebaseapp.com",
-      databaseURL: "https://gcp-flask-explore.firebaseio.com",
-      projectId: "gcp-flask-explore",
-      storageBucket: "gcp-flask-explore.appspot.com",
-      messagingSenderId: "452760201666",
-      appId: "1:452760201666:web:4f3d47dc05f301c0"
+      apiKey: "<apiKey>",
+      authDomain: "<appDomain>",
+      databaseURL: "<databaseURL>",
+      projectId: "<projectId>",
+      storageBucket: "<storageBucket>",
+      messagingSenderId: "<messagingSenderId>",
+      appId: "<appId>"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
