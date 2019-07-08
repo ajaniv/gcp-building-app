@@ -13,3 +13,4 @@ This effort is based on https://cloud.google.com/appengine/docs/standard/python3
   token handling modules per target deployment platform.
 * During registration app may need to capture specific fields in addition to user name,
   password, and email.  Not clear how this is achieved.
+* How will a python client be able to access the API using Firebase?
